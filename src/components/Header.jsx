@@ -17,7 +17,7 @@ export default function Header() {
     <header>
       <div className="navbar">
         <div className="logo">
-          <h3><img src="src/assets/PngItem_801298.png" height="25" />Dapper Tipples</h3>
+          <h3><img src="../assets/PngItem_801298.png" height="25" />Dapper Tipples</h3>
         </div>
         <div className="links">
           <Link to ='/'>Home</Link>
