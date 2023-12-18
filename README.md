@@ -1,3 +1,5 @@
+Project 2 readme
+
 # API project
 
 ## Description
@@ -17,10 +19,10 @@ This code is hosted on netlify. Please follow the link provided.
 
 ## Timeframe & Working Team
 
-The timeframe of this code was 2 days. Wednesday the 22nd at 12pm of November to the 24th at 1pm. This project was a collabaration between Benedict Norton and Alfred Shaw.
+The timeframe of this code was 2 days. Wednesday the 22nd at 12pm of November to the 24th at 1pm. This project was a collaboration between Benedict Norton and Alfred Shaw.
 
 
-## Technologies Used
+## Technologies used
 
 Technologies used are as follows:
 <li>VS code</li>
@@ -46,9 +48,9 @@ Requirements:
 
 ## Planning
 
-For this project, we decided to use a cocktail database API. Tasks were split between us, with each of us taking a position we felt confident in. I was in charge of the logic, accesing formatting and displaying API data, and creating the functional navigation of the site using react router dom. Benedict was in charge of the styling, the footer and header contents and a nav bar for navigating the site.
+For this project, we decided to use a cocktail database API. Tasks were split between us, with each of us taking a position we felt confident in. I was in charge of the logic, accessing formatting and displaying API data, and creating the functional navigation of the site using react router dom. Benedict was in charge of the styling, the footer and header contents and a nav bar for navigating the site.
 
-THIS READ ME IS FOR ALFRED SHAW, THIS MEANS THAT ALL PARTS MENTIONED ARE SECTIONS WORKED ON BY HIM. FOR THE SECTIONS DONE BY BENEDICT NORTON, PLEASE SEE HIS READ ME FOR THE SAME PROJECT.
+THIS READ ME IS FOR THE SECTIONS OF CODE I HAVE DONE, THIS MEANS THAT ALL PARTS MENTIONED ARE SECTIONS WORKED ON BY ME. FOR THE SECTIONS DONE BY BENEDICT NORTON, PLEASE SEE HIS READ ME FOR THE SAME PROJECT.
 
 ### Wireframe:
 
@@ -89,7 +91,7 @@ Due to the simple nature of this program, and the framework used, the pseudo cod
 
     //-Single display page
     //Display all useful information about cocktail
-    //List ingredients and measurments
+    //List ingredients and measurements
     //Show instructions
     //Back button to go back to cocktail index
 
@@ -102,7 +104,7 @@ Due to the simple nature of this program, and the framework used, the pseudo cod
 
 ## Build/Code Process
 
-The main code is made up of several different files. We have a .jsx for every componenet on the page:
+The main code is made up of several different files. We have a .jsx for every component on the page:
 
 <li>CocktailIdx.jsx</li>
 <li>CocktailSgl.jsx</li>
@@ -136,7 +138,7 @@ The code:
 **The Cocktail index page:**
 
 The index page uses the API to load in a brief list of the cocktails available to the user. The API we used had some functionality held back under a paid subscription, but it still functions, just with less items than actually available.
-My aim for this project was to make the API data access as light as possible, so this application only makes a single request at a time to the API, and it will referance data it already has if it can as opposed to reloading the API several times. The code on this page loads the API through the loader.js that is shown above.
+My aim for this project was to make the API data access as light as possible, so this application only makes a single request at a time to the API, and it will reference data it already has if it can as opposed to reloading the API several times. The code on this page loads the API through the loader.js that is shown above.
 
 The code:
 
@@ -383,27 +385,27 @@ The code:
 
 ## Challenges
 
-The main challenge of this project was using the react framework for the first time without support. So far i have a decent understanding of APIs and accessing and using information in them, however using reacts functions instead of javascript proved to be difficult. This is a skill that simply will come with more practice, but did prove to be quite a challenge.
-The small timescale of this project also proved to be a challenge, as we were working in pairs on a limited timeline, prepration was light and the whole project needed to be complete quite quickly. With the delegation of tasks needing to take place relatively quickly etc. I believe it was handled well by my partner Benedict and myself, but it was still a challenge to sort, especially as certain aspects needed to be completed before others could be started.
+The main challenge of this project was using the React framework for the first time without support. So far I have a decent understanding of APIs and accessing and using information in them, however using React functions instead of JavaScript proved to be difficult. This is a skill that simply will come with more practice, but did prove to be quite a challenge.
+The small timescale of this project also proved to be a challenge, as we were working in pairs on a limited timeline, preparation was light and the whole project needed to be completed quite quickly. With the delegation of tasks needing to take place relatively quickly etc. I believe it was handled well by my partner Benedict and myself, but it was still a challenge to sort, especially as certain aspects needed to be completed before others could be started.
 
 
 ## Wins
 
-I am very happy with the way my APIs are accessed and used. Previously my projects used to call to an API multiple times which i wasnt very fond of. This could cause isses if these APIs had request limits etc, and can also be very slow, calling data for little reason that could simply be accessed with additional logic.
-Additionally, the API had some strangely formatted data, which i was able to use some logic for converting data types to get to display in a way i wanted, which i felt proud of. Overall, working with APIs in this project proved to be a win itself.
+I am very happy with the way my APIs are accessed and used. Previously my projects used to call an API multiple times which I wasn't very fond of. This could cause issues if these APIs had request limits etc, and can also be very slow, calling data for little reason that could simply be accessed with additional logic.
+Additionally, the API had some strangely formatted data, which I was able to use some logic for converting data types to get to display in a way I wanted, which I felt proud of. Overall, working with APIs in this project proved to be a win itself.
 
 
 ## Key Learnings/Takeaways
 
-Overall, i learnt alot about using react and its additional packages and features. The framework is very good for making multi page website quickly, and works decently with APIs. Alot of this project was cementing all the features and commands we have covered previously in lectures. My biggest takeaway from this project is that alot of these frameworks work in very specific ways, with no deviation or two ways about doing it, so the best way to use react is by practicing the same things over again with different applications to learn when and why to use certain functions.
+Overall, i learnt alot about using react and its additional packages and features. The framework is very good for making multi page websites quickly, and works decently with APIs. A Lot of this project was cementing all the features and commands we have covered previously in lectures. My biggest takeaway from this project is that a lot of these frameworks work in very specific ways, with no deviation or two ways about doing it, so the best way to use react is by practicing the same things over again with different applications to learn when and why to use certain functions.
 
 
 ## Bugs
 
-1.	The page does display cocktails that may not appear in the All cattegory when sorting by spirit. This is NOT A BUG, NOR AN INTENDED FEATURE, it is infact down the the fact the API used will only give 100 items without using the paid variant at any given request. As this database is quite vast, this means when filtering, as it is a seperate request to the first one (due to the API design), you will get this disparity in drinks.
+1.	The page does display cocktails that may not appear in the All category when sorting by spirit. This is NOT A BUG, NOR AN INTENDED FEATURE, it is down to the fact the API used will only give 100 items without using the paid variant at any given request. As this database is quite vast, this means when filtering, as it is a separate request to the first one (due to the API design), you will get this disparity in drinks.
 2.  Some drink descriptions might appear to go off the page. This is a styling issue as not all of the drinks in the API are known to use and we were not aware of how long the descriptions on some of them are.
-3.  The drop down nav menu never became functional, so it doesn not work even though it is still in the code for smaller screens.
-4.  The styling isnt entirely dynamic.
+3.  The drop down nav menu never became functional, so it doesn’t not work even though it is still in the code for smaller screens.
+4.  The styling isn't entirely dynamic.
 
 
 ## Future Improvements
@@ -413,8 +415,6 @@ Overall, i learnt alot about using react and its additional packages and feature
 <li>Possibly find a better cocktail API with more relevant information to allow for more website functionality and better use of filters.</li>
 <li>Functionality of drop down side nav bar.</li>
 <li>Add some extra pages such as information on ingredients etc.</li>
-
-
 
 
 
